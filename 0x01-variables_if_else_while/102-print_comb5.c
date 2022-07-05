@@ -11,25 +11,26 @@ int main(void)
 	int t;
 	int o;
 
-	for (tens = (ones + 1); tens <= '9'; tens++)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
-		for (ones = (t + 1); ones <= '9'; ones++)
+		for (ones = '0'; ones <= '9'; ones++)
 		{
-			for (t = (o + 1); t <= '9'; t++)
+			for (t = (tens + 1); t <= '9'; t++)
 			{
-				for (o = '0'; o <= '9'; o++)
+				for (o = (ones + 1); o <= '9'; o++)
 				{
 					putchar(tens);
 					putchar(ones);
 					putchar(' ');
 					putchar(t);
 					putchar(o);
-					if ((tens == '9' && ones == '8') && (t == '9' && o == '9'))
+					if (((tens == '9' && ones == '8') && (t == '9' && o == '9')))
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
+				o = '0';
 			
 			}
 		}
