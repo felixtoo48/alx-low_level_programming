@@ -11,13 +11,13 @@ int main(void)
 	int t;
 	int o;
 
-	for (tens = '0'; tens <= '9'; tens++)
+	for (tens = (ones + 1); tens <= '9'; tens++)
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		for (ones = (t + 1); ones <= '9'; ones++)
 		{
-			for (t = tens; t <= '9'; t++)
+			for (t = (o + 1); t <= '9'; t++)
 			{
-				for (o = (ones + 1); 0 <= '9'; o++)
+				for (o = '0'; 0 <= '9'; o++)
 				{
 					putchar(tens);
 					putchar(ones);
@@ -30,7 +30,6 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				o = '0';
 			}
 		}
 	}
