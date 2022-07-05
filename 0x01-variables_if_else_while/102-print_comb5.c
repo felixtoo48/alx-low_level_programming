@@ -13,11 +13,11 @@ int main(void)
 
 	for (tens = '0'; tens <= '9'; tens++)
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		for (ones = (tens + 1); ones <= '9'; ones++)
 		{
-			for (t = 0 + 1; t <= '9'; t++)
+			for (t = (ones + 1); t <= '9'; t++)
 			{
-				for (o = ones + 1; o <= '9'; o++)
+				for (o = (t + 1); o <= '9'; o++)
 				{
 					putchar(tens);
 					putchar(ones);
