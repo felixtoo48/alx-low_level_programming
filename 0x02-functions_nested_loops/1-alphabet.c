@@ -2,11 +2,16 @@
 /**
  * main - print alphabet
  *
- * Return: Always 0
+ * Return nothing
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
