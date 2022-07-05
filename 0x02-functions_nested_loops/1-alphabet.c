@@ -2,7 +2,7 @@
 /**
  * main - print alphabet
  *
- * Return nothing
+ * Return: nothing
  */
 
 void print_alphabet(void)
