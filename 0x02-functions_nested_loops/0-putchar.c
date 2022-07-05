@@ -1,6 +1,6 @@
 # include "main.h"
 /**
- * Main - Entry point
+ * Main - print _putchar
  *
  * Retun: Always 0 (success)
  */
