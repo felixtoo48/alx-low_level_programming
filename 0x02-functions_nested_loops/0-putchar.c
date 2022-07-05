@@ -2,7 +2,7 @@
 /**
  * Main - print "_putchar"
  *
- * Retun: Always 0 (success)
+ * Retun nothing
  */
 
 int main(void)
