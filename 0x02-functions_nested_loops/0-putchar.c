@@ -1,6 +1,6 @@
 # include "main.h"
 /**
- * Main - print "_putchar"
+ * main - print "_putchar"
  *
  * Retun nothing
  */
