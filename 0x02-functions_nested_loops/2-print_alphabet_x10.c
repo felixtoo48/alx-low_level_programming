@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prints_alphabet - 10 times followed by a new line
+ * print_alphabet_x10 - 10 times followed by a new line
  *
  * Return: 0 Always
  */
