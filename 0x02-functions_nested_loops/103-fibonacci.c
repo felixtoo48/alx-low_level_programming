@@ -10,19 +10,19 @@ int main(void)
 	int i;
 	int t1 = 0;
 	int t2 = 1;
-	int nextterm = t1 + t2;
+	int n = t1 + t2;
 	int sum = 0;
 
 	for (i = 1; i <= 50; i++)
 	{
 		t1 = t2;
-		t2 = nextterm;
-		nextterm = t1 + t2;
-		while (nextterm <= 4000000)
+		t2 = n;
+		n = t1 + t2;
+		while (n <= 4000000)
 		{
-			if (nextterm % 2 == 0)
+			if (n % 2 == 0)
 			{
-				sum += nextterm;
+				sum += n;
 			}
 			printf("%d\n", sum);
 		}
