@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_sign - print sign of number
  * @n: number to check
@@ -6,7 +7,6 @@
  */
 
 int print_sign(int n)
-
 {
 	if (n > '0')
 	{
