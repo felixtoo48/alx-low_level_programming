@@ -6,6 +6,8 @@
  */
 
 int print_sign(int c)
+	int n;
+
 {
 	if (n > '0')
 	{
