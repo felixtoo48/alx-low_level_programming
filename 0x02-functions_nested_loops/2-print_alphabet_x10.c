@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * prints_alphabet 10 times followed by a new line
+ * prints_alphabet - 10 times followed by a new line
  *
- * Return: nothing
+ * Return: 0 Always
  */
 
 void print_alphabet_x10(void)
@@ -16,7 +16,6 @@ void print_alphabet_x10(void)
 			_putchar(c);
 		}
 		_putchar('\n');
-
-		c++;
 	}
+	c++,
 }
