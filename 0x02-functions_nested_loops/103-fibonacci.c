@@ -23,9 +23,9 @@ int main(void)
 			if (nextterm % 2 == 0)
 			{
 				sum += nextterm;
-				printf("%d\n", sum);
 			}
 		}
 	}
+	printf("%d\n", sum);
 	return (0);
 }
