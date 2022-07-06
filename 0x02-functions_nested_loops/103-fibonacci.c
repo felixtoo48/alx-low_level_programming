@@ -24,8 +24,8 @@ int main(void)
 			{
 				sum += nextterm;
 			}
+			printf("%d\n", sum);
 		}
 	}
-	printf("%d\n", sum);
 	return (0);
 }
