@@ -8,8 +8,8 @@
 int main(void)
 {
 	int i;
-	int t1 = 1;
-	int t2 = 2;
+	int t1 = 0;
+	int t2 = 1;
 	int nextterm = t1 + t2;
 
 	for (i = 1; i <= 50; i++)
