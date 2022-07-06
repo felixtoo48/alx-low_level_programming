@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * times_table - print multiplication table
- * 
+ * times_table - print multiplication table 
  * Return: Always 0 (Success)
  */
 
@@ -14,7 +13,7 @@ void times_table(void)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			_putchar(i*j);
+			_putchar('i' * 'j');
 			_putchar(',');
 			_putchar(' ');
 		}
