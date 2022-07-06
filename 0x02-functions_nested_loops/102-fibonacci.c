@@ -8,7 +8,6 @@
 int main(void)
 {
 	int i;
-	int j;
 	int t1 = 1;
 	int t2 = 2;
 	int nextterm = t1 + t2;
