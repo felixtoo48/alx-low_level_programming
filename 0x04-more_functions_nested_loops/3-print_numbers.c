@@ -16,6 +16,4 @@ void print_numbers(void);
 		n++;
 	}
 	n++;
-
-	return (0);
 }
