@@ -10,22 +10,21 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	int i;
-	char *arr;
+	unsigned int i;
+	char *p;
 
-	if (size <= 0) /* validate size input */
-		return (NULL);
-	arr = malloc(sizeof(char) * size); /* allocate memory */
+	if (size == 0) /* validate size input */
+		return (0);
+	
+	p = malloc(sizeof(char) * size); /* allocate memory */
 
-	if (arr == NULL) /* validate memory */
-		return (NULL);
+	if (p == NULL) /* validate memory */
+		return (0);
 
-	while (i < (int)size) /* set array values to char c */
+	while (i < size) /* set array values to char c */
 	{
-		*(arr + i) = c;
+		p[i] = c;
 		i++;
 	}
-
-	*(arr + i) = '\0';
-	return (arr);
+	return (p);
 }
