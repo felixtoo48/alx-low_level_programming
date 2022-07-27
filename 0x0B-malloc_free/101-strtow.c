@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * word_len - finds the length of a word
- *
+ * @str: string entred
  * Return:int
  */
 int word_len(char *str)
